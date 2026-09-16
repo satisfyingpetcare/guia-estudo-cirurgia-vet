@@ -1,1 +1,31 @@
 # guia-estudo-cirurgia-vet
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Guia Prático de Cirurgia e Farmacologia Veterinária</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root { --theme-color: #008080; }
+    .quiz-container { background: #f9f9f9; border-left: 4px solid var(--theme-color); padding: 15px; margin: 20px 0; border-radius: 4px; }
+    .quiz-option { display: block; margin: 8px 0; cursor: pointer; }
+    .quiz-btn { background: var(--theme-color); color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; margin-top: 10px; }
+    .quiz-result { margin-top: 10px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div id="app">Carregando Guia de Estudos...</div>
+  <script>
+    window.$docsify = {
+      name: 'Cirurgia & Farmaco Vet',
+      repo: '',
+      loadSidebar: false,
+      subMaxLevel: 2,
+      auto2top: true
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+</body>
+</html>
